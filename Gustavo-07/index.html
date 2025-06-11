@@ -1,0 +1,41 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema de Vendas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <h1>Sistema de Vendas</h1>
+
+    <p>
+        Elabore uma página que calcule o que deve ser pago por um produto, considerando o preço normal de etiqueta e a escolha da condição de pagamento. <br><br>
+        Utilize os códigos da tabela a seguir para ler qual a condição de pagamento escolhida e efetuar o cálculo adequado:<br><br>
+        <strong>Código Condição de pagamento:</strong><br>
+        <strong>a</strong> - À vista em dinheiro ou cheque, recebe 10% de desconto<br>
+        <strong>b</strong> - À vista no cartão de crédito, recebe 15% de desconto<br>
+        <strong>c</strong> - Em duas vezes, preço normal de etiqueta sem juros<br>
+        <strong>d</strong> - Em duas vezes, preço normal de etiqueta mais juros de 10%
+    </p>
+
+    <div class="container">
+        <h2>Preço do produto</h2>
+        <input type="number" id="preco" placeholder="Digite o valor do produto">
+
+        <label for="condicaoPagamento">Escolha a condição de pagamento:</label>
+        <select id="condicaoPagamento">
+            <option value="a">À vista em dinheiro ou cheque (10% desconto)</option>
+            <option value="b">À vista no cartão de crédito (15% desconto)</option>
+            <option value="c">Em duas vezes (sem juros)</option>
+            <option value="d">Em duas vezes (com 10% de juros)</option>
+        </select>
+
+        <button id="btEnter">Calcular</button>
+
+        <h2 id="result"></h2>
+    </div>
+
+    <script src="script.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>

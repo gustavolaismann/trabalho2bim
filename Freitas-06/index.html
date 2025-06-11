@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXERCICIO 06</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="conteiner">
+    <h1>ATIVIDADE 6 <BR>CALCULAR VALOR A SER PAGO NA LANCHONETE!</h1>
+    <hr>
+    <H2>Para uma lanchonete, faça uma página que leia o código do item pedido, a quantidade
+e calcule o valor a ser pago por aquele lanche. Considere que a cada execução
+somente será calculado um item. O cardápio é o seguinte:</H2>
+<table border="1">
+    <TR class="azulescuro"><TH colspan="2">CARDAPIO</TH></TR>
+    <TR>
+        <TH align="CENTER"><B>PRODUTO</B></TH>
+        <TH align="CENTER"><B>PRECO</B></TH>
+    </TR>
+    <TR class="azulclaro">
+        <TH align="center"><B> 01 CACHORRO QUENTE</B></TH>
+        <TH align="CENTER">R$11,50</TH>
+    </TR>
+    <TR>
+        <TH> <B> 02 BAURU</B></TH>
+        <TH align="CENTER">R$8,50</TH>
+    </TR>
+    <TR class="azulclaro">
+        <TH><B> 03 MISTO QUENTE</B></TH>
+        <TH align="CENTER">R$8,00</TH>
+    </TR>
+    <TR>
+        <TH align="center"><B> 04 HAMBURGUER</B></TH>
+        <TH align="CENTER">R$9,00</TH>
+    </TR>
+    <TR class="azulclaro">
+        <TH><B> 05 CHEESEBURGUER</B></TH>
+        <TH align="CENTER">R$10,00</TH>
+    </TR>
+    <TR>
+        <TH><B> 06 REFRIGERANTE</B></TH>
+        <TH align="CENTER">R$4,50</TH>
+    </TR>
+    
+</table>
+           
+            <label for="inputProduto">Produto</label>
+        <input list="Produto" id="inputProduto" type="number">
+        <datalist id="Produto">
+            <option value="1">
+            <option value="2">
+            <option value="3">
+            <option value="4">
+            <option value="5">
+            <option value="6">
+        </datalist>
+            
+        <label for="inputQuantidade">Quantidade</label>
+        <input id="inputQuantidade" type="number">
+
+        <button id="btCalcular">CALCULAR</button>
+
+            <h3 id="h3Resultado">
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>

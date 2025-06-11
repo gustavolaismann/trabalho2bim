@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    
+     <div class="conteiner">
+      <H1>ATIVIDADE 08 <BR>
+      SISTEMA DE PAGAMENTOS <BR></H1>
+    <h2>Sistema de pagamentos: Uma escola faz o pagamento de seus professores por
+hora/aula. Faça uma página que solicite ao usuário, o nível do professor e a quantidade
+de horas/aula ele tem na semana. Em seguida, calcule e exiba o salário de um
+professor sabendo que a fórmula para o cálculo do salário ésal = valorHoraAula ∗
+qtdAula ∗ 4.5. O valor da hora/aula do professor édado em função do seu nível:
+<br>
+Professor Nível 1 R$12,00 por hora/aula
+<br>
+Professor Nível 2 R$17,00 por hora/aula
+<br>
+Professor Nível 3 R$25,00 por hora/aula</h2>
+
+        <label for="inputNivel">Nível Professor</label>
+  <input list="Nivel" id="inputNivel" type="number" required>
+  <datalist id="Nivel">
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+
+  </datalist>
+    
+        <label for="inputHoras">Horas/Aula</label>
+  <input id="inputHoras" type="number" required>
+    
+
+ 
+        <button id="btCalcular" >Calcular Salario</button>
+
+        <h3 id="h3Resultado">  </h3>
+       </div>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
+
+
+
+
+
+
+
+
+
